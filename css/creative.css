@@ -8,12 +8,13 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-image: url(../img/back.png);
+    background-image: url(../img/cartographer.png);
     background-repeat: repeat-x repeat-y;
 }
 
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    color: #F1FAFA
 }
 
 .denk {
@@ -54,6 +55,7 @@ h4,
 h5,
 h6 {
     font-family: 'Denk One', sans-serif;
+    color: #F1FAFA
 }
 
 p {
