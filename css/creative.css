@@ -16,6 +16,15 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
+.denk {
+    font-family: 'Denk One', sans-serif;
+}
+
+.caeser {
+    font-family: 'Caesar Dressing', cursive;
+}
+
+
 hr {
     max-width: 50px;
     border-color: #f05f40;
@@ -44,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Denk One', sans-serif;
 }
 
 p {
