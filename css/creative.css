@@ -499,11 +499,13 @@ body {
 }
 
 .main-logo {
-    width: 60%;
+    width: 90%;
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 @media (max-width: 900px) {
     .main-logo{
@@ -513,8 +515,15 @@ body {
 
 @media (max-width: 600px) {
     .main-logo{
-        width: 90%;
+        width: 90%
     }
+}
+
+.main-logo-bottom {
+    width: 70%;
+    /*margin-top: 200px;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pp {
