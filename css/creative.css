@@ -203,6 +203,12 @@ header {
     -o-background-size: cover;
 }
 
+@media (max-width: 600px) {
+    header {
+        background-position: 25% 50%;
+    }
+}
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -490,4 +496,29 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.main-logo {
+    width: 60%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 900px) {
+    .main-logo{
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-logo{
+        width: 90%;
+    }
+}
+
+.pp {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
