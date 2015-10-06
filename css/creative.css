@@ -25,6 +25,9 @@ body {
     font-family: 'Caesar Dressing', cursive;
 }
 
+.back-button {
+    padding: 1em;
+}
 
 hr {
     max-width: 50px;
@@ -499,7 +502,7 @@ body {
 }
 
 .main-logo {
-    width: 90%;
+    width: 80%;
     /*margin-top: 200px;*/
     margin-left: auto;
     margin-right: auto;
