@@ -544,3 +544,7 @@ body {
 .div-pad {
     padding: 2em;
 }
+
+.img-bord {
+    border: 5px solid white
+}
