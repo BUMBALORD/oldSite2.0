@@ -148,7 +148,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #f05f40;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -158,7 +158,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: #f05f40;
     }
 
     .navbar-default .nav > li>a:hover,
@@ -547,4 +547,14 @@ body {
 
 .img-bord {
     border: 5px solid white
+}
+
+.icon {
+    text-shadow: 1px 1px 1px #f05f40;
+}
+
+@media (max-width: 900px) {
+    .icon{
+        font-size: 2.5em;
+    }
 }
