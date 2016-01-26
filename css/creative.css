@@ -558,3 +558,12 @@ body {
         font-size: 2.5em;
     }
 }
+
+.smaller {
+    font-size: 0.9em;
+}
+
+a .clickable:hover{
+    cursor:pointer;
+    cursor:hand;
+}
