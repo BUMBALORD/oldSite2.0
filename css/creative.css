@@ -502,7 +502,7 @@ body {
 }
 
 .main-logo {
-    width: 50%;
+    width: 60%;
     /*margin-top: 200px;*/
     margin-left: auto;
     margin-right: auto;
@@ -576,10 +576,10 @@ a .clickable:hover{
     width: 100%;
 }
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+/*@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
+*/
 #fadeIn {
     opacity:0;  /* make things invisible upon start */
     -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
