@@ -195,7 +195,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    max-height: auto;
     text-align: center;
     color: #fff;
     background-image: url(../img/header2.jpg);
@@ -209,6 +209,7 @@ header {
 @media (max-width: 600px) {
     header {
         background-position: 25% 50%;
+        height: 15em;
     }
 }
 
@@ -507,6 +508,12 @@ body {
     margin-right: auto;
 }
 
+@media (max-width: 600px) {
+    .main-logo {
+        width: 70%;
+    }
+}
+
 .main-logo-bottom {
     width: 50%;
     padding-top: 1.5em;
@@ -521,7 +528,7 @@ body {
 }
 
 .pp {
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -603,6 +610,25 @@ a .clickable:hover{
     animation-delay: 1.0s;
 }
 
+#fadeIn3 {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:0.7s;
+    -moz-animation-duration:0.7s;
+    animation-duration:0.7s;
+
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
 .under {
     position: absolute;
     left: 0;
@@ -614,6 +640,17 @@ a .clickable:hover{
     z-index: 1;
     left: 0;
     right: 0;
+}
+
+.over2 {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+}
+
+.contact {
+    width: 80%;
 }
 
 
