@@ -35,6 +35,8 @@
         }
     );
 
+    $("#banner").fitText(1.1);
+
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
